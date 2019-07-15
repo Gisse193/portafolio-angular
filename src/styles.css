@@ -1,3 +1,10 @@
+/*SVG*/
+svg path,
+svg rect{
+  fill: black;
+}
+
+/*animation*/
 .animated {
     -webkit-animation-duration: 0.6s;
     animation-duration: 0.6s;
