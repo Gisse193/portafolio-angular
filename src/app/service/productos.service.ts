@@ -38,7 +38,7 @@ buscarProducto( termino: string ) {
     this.filtrarProductos( termino );
   }
 }
-private filtrarProductos( termino: String ) {
+private filtrarProductos( termino: string ) {
 /*  console.log(this.productos); */
  this.productoFiltrado = [];
  termino = termino.toLocaleLowerCase();
@@ -50,5 +50,3 @@ private filtrarProductos( termino: String ) {
 });
 }
 }
-
-/*setTimeout(() => {this.cargando = false;}, 2000);*/
